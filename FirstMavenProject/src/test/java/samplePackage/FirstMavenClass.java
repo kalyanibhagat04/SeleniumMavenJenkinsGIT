@@ -16,6 +16,8 @@ public class FirstMavenClass {
 	      dr.manage().window().maximize();
 	      dr.get("http://sampleapp.tricentis.com/101/");
 	      dr.findElement(By.xpath("//a[@id='nav_automobile']")).click();
+
+
 }
 
 
